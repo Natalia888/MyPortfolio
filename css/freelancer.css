@@ -191,12 +191,7 @@ section.success {
   margin: 0 0 15px;
   right: 0;
 }
-#portfolio .portfolio-item .portfolio-link {
-  display: block;
-  position: relative;
-  max-width: 400px;
-  margin: 0 auto;
-}
+
 #portfolio .portfolio-item .portfolio-link .caption {
   background: rgba(255, 164, 116, 0.9);
   position: absolute;
