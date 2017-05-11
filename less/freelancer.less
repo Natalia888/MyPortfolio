@@ -115,7 +115,21 @@ header {
 	}
 }
 
-
+.navbar-custom {
+	background: @theme-primary;
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	font-weight: 600;
+	border: none;
+	.navbar-brand {
+		color: white;
+		&:hover,
+		&:focus,
+		&:active,
+		&.active {
+			color: white;
+		}
+	}
 	.navbar-nav {
 		letter-spacing: 1px;
 		li {
