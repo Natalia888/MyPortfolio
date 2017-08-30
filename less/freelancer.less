@@ -67,6 +67,36 @@ hr.star-primary:after {
     color: @theme-primary;
 }
 
+.img-centered {
+	margin: 0 auto;
+}
+
+header {
+	text-align: center;
+	background: @theme-success;
+	color: white;
+	.container {
+		padding-top: 100px;
+		padding-bottom: 50px;
+	}
+	img {
+		display: block;
+		margin: 0 auto 20px;
+	}
+	.intro-text {
+		.name {
+			display: block;
+			font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			text-transform: uppercase;
+			font-weight: 700;
+			font-size: 2em;
+		}
+		.skills {
+			font-size: 1.25em;
+			font-weight: 300;
+		}
+	}
+}
 
 @media(min-width:768px) {
 	header {
